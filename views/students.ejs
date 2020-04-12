@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Aplication</title>
+</head>
+<body>
+    <h1>Students Information:</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>First_name</th>
+            <th>Last_name</th>
+            <th>Email</th>
+            <th>Gender</th>
+            <th>Birth_date</th>
+        </tr>
+        <% for( i = 0 ; i < data.length ; i++ ){ %>
+            <tr>
+                <th><%= data[i].id %></th>
+                <th><%= data[i].first_name %></th>
+                <th><%= data[i].last_name %></th>
+                <th><%= data[i].email %></th>
+                <th><%= data[i].gender %></th>
+                <th><%= data[i].birth_date %></th>    
+            </tr>
+        <%  }   %>
+    </table>
+    <style>
+       table, th, td {
+        border: 1px solid black;
+    }
+    </style>
+</body>
+</html>
