@@ -1,0 +1,25 @@
+{
+  "name": "school-application-weekend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "school-app.js",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orion-fox-2020/school-application-weekend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orion-fox-2020/school-application-weekend/issues"
+  },
+  "homepage": "https://github.com/orion-fox-2020/school-application-weekend#readme",
+  "keywords": []
+}
